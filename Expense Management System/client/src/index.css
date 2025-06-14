@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4ea;
+}
+
+.content {
+  height: 100vh;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.filters h6 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #7d7d7d;
+}
+
+.switch-icons {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 8px 15px;
+  background-color: #f9f9f9;
+}
+
+.anticon svg {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active-icon {
+  color: black;
+}
+
+.inactive-icon {
+  color: gray;
+}
+
+.btn-primary {
+  background-color: #1890ff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #40a9ff;
+}
+
+/* Table Styling */
+.ant-table {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.ant-table-thead > tr > th {
+  background-color: #f5f5f5;
+  font-weight: 600;
+  color: #333333;
+  padding: 12px;
+}
+
+.ant-table-tbody > tr > td {
+  padding: 12px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.ant-table-tbody > tr:nth-child(odd) {
+  background-color: #fafafa;
+}
+
+.ant-table-tbody > tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Action Buttons */
+.ant-table-tbody > tr > td .anticon {
+  margin-right: 10px;
+  color: #1890ff;
+  cursor: pointer;
+}
+
+.ant-table-tbody > tr > td .anticon:hover {
+  color: #40a9ff;
+}
+
+/* Pagination Styling */
+.ant-pagination-item-active {
+  border-color: #1890ff;
+}
+
+.ant-pagination-item-active a {
+  color: #1890ff;
+}
