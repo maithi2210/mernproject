@@ -114,11 +114,10 @@ npm install axios react-router-dom bootstrap
 📸 Screenshots
 
 1. Register Form
-![image](https://github.com/user-attachments/assets/5d0bbedc-c095-4058-bdb3-97243cc56256)
+![image](https://github.com/user-attachments/assets/e5522ad0-e2bd-4869-8df5-0e12218f968d)
 
 2. Login Form
-![image](https://github.com/user-attachments/assets/fbc853b6-64c3-46f5-8266-5432af6155e5)
-
+![image](https://github.com/user-attachments/assets/19c7c7f7-4a52-44f6-b2f5-6e90d76458da)
 
 3. Expense Management System
 ![image](https://github.com/user-attachments/assets/f032b17b-51f9-4f9f-a423-8067c3589c5b)
@@ -127,22 +126,22 @@ npm install axios react-router-dom bootstrap
 4.Add Transaction
 ![image](https://github.com/user-attachments/assets/37b6191c-7e30-47d4-a87c-0e4a72e546da)
 
-
 5.Edit Transaction
 ![image](https://github.com/user-attachments/assets/5ff0afae-f206-4476-ac92-c65b0a43e394)
-
 
 6.Delete Transaction
 ![image](https://github.com/user-attachments/assets/32913fcd-f961-426c-8b7e-915a02d47fad)
 
-
+```
 🧑‍💻 Author
 Maithili Ambavale
 
 GitHub: @maithi2210
+```
 
+```
 📄 License
 This project is licensed under the MIT License.
-
+```
 
 
