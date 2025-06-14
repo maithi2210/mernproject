@@ -60,24 +60,24 @@ Edit
 git clone https://github.com/yourusername/expense-management-system.git
 cd expense-management-system
 ```
-2. Install Backend Dependencies
+### 2. Install Backend Dependencies
 ```bash
 cd server
 npm install
 ```
-3. Install Frontend Dependencies
+### 3. Install Frontend Dependencies
 ```bash
 cd ../client
 npm install
 ```
-4. Configure Environment Variables
+### 4. Configure Environment Variables
 Create a .env file in the server/ directory:
 ```
 MONGO_URI=your_mongodb_connection_string
 PORT=5000
 JWT_SECRET=your_jwt_secret
 ```
-5. Run the Application
+### 5. Run the Application
 
 # Run backend
 ```
@@ -89,7 +89,8 @@ npm start
 cd client
 npm start
 ```
-🚀 Deployment
+
+### 🚀 Deployment
 You can deploy the frontend on Vercel or Netlify, and the backend on Render, Railway, or Heroku.
 
 🧩 Modules to Add to package.json (Backend)
@@ -111,7 +112,7 @@ For frontend (React):
 
 npm install axios react-router-dom bootstrap
 ```
-📸 Screenshots
+### 📸 Screenshots
 
 1. Register Form
 ![image](https://github.com/user-attachments/assets/e5522ad0-e2bd-4869-8df5-0e12218f968d)
@@ -132,16 +133,15 @@ npm install axios react-router-dom bootstrap
 6.Delete Transaction
 ![image](https://github.com/user-attachments/assets/32913fcd-f961-426c-8b7e-915a02d47fad)
 
-```
-🧑‍💻 Author
+
+### 🧑‍💻 Author
 Maithili Ambavale
 
 GitHub: @maithi2210
-```
 
-```
-📄 License
+
+###📄 License
 This project is licensed under the MIT License.
-```
+
 
 
