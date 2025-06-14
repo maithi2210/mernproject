@@ -128,7 +128,8 @@ npm install axios react-router-dom bootstrap
 ![image](https://github.com/user-attachments/assets/86c28f97-f612-431d-b055-ab3dce4f5c57)
 
 5.Edit Transaction
-![image](https://github.com/user-attachments/assets/5ff0afae-f206-4476-ac92-c65b0a43e394)
+![image](https://github.com/user-attachments/assets/7950f7d2-baab-433e-a5b6-cf5ad3ab3fe9)
+
 
 6.Delete Transaction
 ![image](https://github.com/user-attachments/assets/32913fcd-f961-426c-8b7e-915a02d47fad)
