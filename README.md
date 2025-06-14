@@ -62,85 +62,91 @@ cd expense-management-system
 ```
 2. Install Backend Dependencies
 ```bash
-Copy
-Edit
 cd server
 npm install
 ```
 3. Install Frontend Dependencies
-bash
-Copy
-Edit
+```bash
 cd ../client
 npm install
+```
 4. Configure Environment Variables
 Create a .env file in the server/ directory:
-
-env
-Copy
-Edit
+```
 MONGO_URI=your_mongodb_connection_string
 PORT=5000
 JWT_SECRET=your_jwt_secret
+```
 5. Run the Application
-bash
-Copy
-Edit
+
 # Run backend
+```
 cd server
 npm start
-
+```
 # Run frontend (in a separate terminal)
+```
 cd client
 npm start
+```
 🚀 Deployment
 You can deploy the frontend on Vercel or Netlify, and the backend on Render, Railway, or Heroku.
 
 🧩 Modules to Add to package.json (Backend)
 Ensure these packages are added in your backend:
 
-bash
-Copy
-Edit
+```bash
+
 npm install express mongoose bcrypt cors dotenv
 npm install --save-dev nodemon
+```
 Optionally, if you're using JWT for auth:
 
-bash
-Copy
-Edit
+```
 npm install jsonwebtoken
+```
 For frontend (React):
 
-bash
-Copy
-Edit
+```bash
+
 npm install axios react-router-dom bootstrap
+```
 📸 Screenshots
 1. Register Form
+```
 ![image](https://github.com/user-attachments/assets/5d0bbedc-c095-4058-bdb3-97243cc56256)
+```
 
 2. Login Form
+```
 ![image](https://github.com/user-attachments/assets/fbc853b6-64c3-46f5-8266-5432af6155e5)
+```
 
 3. Expense Management System
+```
 ![image](https://github.com/user-attachments/assets/f032b17b-51f9-4f9f-a423-8067c3589c5b)
 
 ![image](https://github.com/user-attachments/assets/1025af18-ef71-49a9-939b-36cb1b1facd6)
-
+```
 4.Add Transaction
+```
 ![image](https://github.com/user-attachments/assets/37b6191c-7e30-47d4-a87c-0e4a72e546da)
+```
 
 5.Edit Transaction
+```
 ![image](https://github.com/user-attachments/assets/5ff0afae-f206-4476-ac92-c65b0a43e394)
+```
 
 6.Delete Transaction
+```
 ![image](https://github.com/user-attachments/assets/32913fcd-f961-426c-8b7e-915a02d47fad)
+```
 
 🧑‍💻 Author
-Your Name
+Maithili Ambavale
 
-GitHub: @yourusername
+GitHub: @maithi2210
 
 📄 License
 This project is licensed under the MIT License.
