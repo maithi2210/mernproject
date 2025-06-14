@@ -59,12 +59,14 @@ Edit
 ```bash
 git clone https://github.com/yourusername/expense-management-system.git
 cd expense-management-system
+```
 2. Install Backend Dependencies
-bash
+```bash
 Copy
 Edit
 cd server
 npm install
+```
 3. Install Frontend Dependencies
 bash
 Copy
