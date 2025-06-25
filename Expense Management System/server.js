@@ -5,25 +5,36 @@ const dotenv = require("dotenv");
 const colors = require("colors");
 const connectDB = require("./config/connectDB");
 
-// config dot env file
+// Load environment variables
 dotenv.config();
 
-// database call
+// Connect to MongoDB
 connectDB();
 
+// Initialize express app
 const app = express();
+
+// Middleware
 app.use(morgan("dev"));
 app.use(express.json());
 app.use(cors());
 
-//user routes
+// Routes
 app.use("/api/v1/users", require("./routes/userRoute"));
-//transaction routes
 app.use("/api/v1/transactions", require("./routes/transactionRoutes"));
 
-// Fix the port configuration
-const PORT = process.env.PORT || 8080;
-
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+// Root endpoint for test
+app.get("/", (req, res) => {
+  res.send("API is running");
 });
+
+// Export the app for Vercel
+module.exports = app;
+
+// If run locally (not in Vercel), start the server
+if (require.main === module) {
+  const PORT = process.env.PORT || 8080;
+  app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+  });
+}
